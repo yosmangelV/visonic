@@ -1,0 +1,174 @@
+/*----------------------- Blockquote ---------------------*/
+
+.blockquote{
+	
+	padding:20px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	font-size:16px;
+	color:#000;
+	line-height:25px;
+	margin-top:20px;
+	margin-bottom: 20px !important;
+	float:left;
+}
+
+.blockquote span.source{
+
+	float:right;
+	padding-top:6px;
+	font-size:12px;
+	color:#666;
+
+}
+
+/*----------------------- End Blockquote -----------------*/
+
+/*----------------------- Social Icons ---------------------*/
+
+.social_icons_sc{
+
+	float:left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.social_icons_sc i{
+
+	font-size:18px;
+	color:#333;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+
+}
+
+/*----------------------- End Social Icons ---------------------*/
+
+/*----------------------- Boxes with Alerts --------------------*/
+.alert h1{
+
+	font-size:20px;
+	width:100%;
+	float:left;
+	color:inherit;
+}	
+
+.alert .alert_content{
+
+	padding-bottom: 18px;
+}
+
+
+/*------------------------ End boxes with alerts -----------------*/
+
+/*------------------------- Tooltip Styling ----------------------*/
+.tooltip-inner{
+
+	float:left;
+	width:100%;
+}	
+
+/*------------------------- End Tooltip Styling ------------------*/  
+
+/*------------------------- Dropcaps Styling ---------------------*/
+.dropcaps, .dropcaps.squre{
+
+	padding: 15px 15px;
+	font-size: 31px;
+	float: left;
+	margin: 5px 7px;
+
+}
+
+.dropcaps.circle{
+
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-o-moz-border-radius:50%;
+
+}
+
+
+/*------------------------- End Dropcaps Styling -----------------*/
+
+/*------------------------- LightBox Styling ---------------------*/
+.lightbox-gallery img{
+
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+
+} 
+
+.lightbox-gallery:hover img {
+
+	opacity: 0.7;
+
+}
+
+.lightbox-media img{
+
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	-ms-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.lightbox-media:hover img{
+
+	opacity: 0.7;
+}
+
+/*------------------------- End LightBox Styling ---------------------*/
+
+/*------------------------- HighLights Styling ----------------------*/
+
+.highlights {
+
+}
+
+
+/*--------------------------End Highlights Styling ------------------*/
+
+/* ------------------------ Icon Text -------------------------------*/
+
+.icon_text{
+	float:left;
+}
+
+.icon_text i{
+	float:left;
+	margin-right:7px;
+	font-size:13px;
+	color:inherit;
+	line-height:20px;
+}
+
+.icon_text span{
+	float:left;
+	color:inherit;
+	line-height:20px;
+}
+
+/* ------------------------ End Icon Text ---------------------------*/
+
+
+/* ----------------------- Contact Information ----------------------*/
+
+.contact_information{float:left;}
+.contact_information dl{margin:0; padding:0; float:left; width:auto; margin-right:25px;}
+.contact_information dl:last-child{margin-right:0;}
+.contact_information dt{width:28px;height:28px;}
+.contact_information dt i{font-size:24px; line-height: 35px;float: right;}
+.contact_information dt .bbm_channels{width:24px; line-height: 35px;height:35px;float: right; background:url('../img/bbm.png') center no-repeat;}
+.contact_information dd{margin-left:40px; margin-top:0px;}
+.contact_information dd .title{display:block; font-weight:400; color:#a4a4a4; font-size:12px;}
+.contact_information dd p{margin-bottom:0px; color:#444; font-size:12px; font-style: italic; font-weight:500; float:left;margin-top:-4px;}
+/* ----------------------- End Contact Information ------------------ */

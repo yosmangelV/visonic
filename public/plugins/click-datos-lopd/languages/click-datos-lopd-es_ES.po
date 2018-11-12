@@ -1,0 +1,337 @@
+# Copyright (C) 2018
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/click-datos-lopd-svn\n"
+"POT-Creation-Date: 2018-02-21 17:14:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-02-28 17:36+0000\n"
+"Language-Team: Spanish (Spain)\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: admin <tarias@atalantic.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es-ES"
+
+#: admin/class-cdlopd-admin.php:66 admin/class-cdlopd-admin.php:853
+msgid "LOPD Click Datos"
+msgstr "LOPD Click Datos"
+
+#: admin/class-cdlopd-admin.php:66
+msgid "LOPD Click Datos Cookies"
+msgstr "LOPD Click Datos Cookies"
+
+#: admin/class-cdlopd-admin.php:165
+msgid "Avisos Legales"
+msgstr "Avisos Legales"
+
+#: admin/class-cdlopd-admin.php:193 admin/class-cdlopd-admin.php:626
+msgid "Política de Cookies"
+msgstr "Política de Cookies"
+
+#: admin/class-cdlopd-admin.php:239
+msgid "Política de Privacidad"
+msgstr "Política de Privacidad"
+
+#: admin/class-cdlopd-admin.php:458
+msgid "Parametro de contenidos"
+msgstr "Parametro de contenidos"
+
+#: admin/class-cdlopd-admin.php:465 public/customizer.php:31
+msgid "Posición"
+msgstr "Posición"
+
+#: admin/class-cdlopd-admin.php:472
+msgid "Color del texto"
+msgstr "Color del texto"
+
+#: admin/class-cdlopd-admin.php:480 admin/class-cdlopd-admin.php:510 
+#: public/customizer.php:161
+msgid "Color de fondo"
+msgstr "Color de fondo"
+
+#: admin/class-cdlopd-admin.php:487
+msgid "Color del enlace a más información "
+msgstr "Color del enlace a más información "
+
+#: admin/class-cdlopd-admin.php:495
+msgid "Color texto del botón"
+msgstr "Color texto del botón"
+
+#: admin/class-cdlopd-admin.php:502
+msgid "Color fondo del botón"
+msgstr "Color fondo del botón"
+
+#: admin/class-cdlopd-admin.php:518
+msgid "Mostrar texto de botón"
+msgstr "Mostrar texto de botón"
+
+#: admin/class-cdlopd-admin.php:525
+msgid "Usar X para cerrar Política de cookies"
+msgstr "Usar X para cerrar Política de cookies"
+
+#: admin/class-cdlopd-admin.php:534
+msgid "Texto de cabecera"
+msgstr "Texto de cabecera"
+
+#: admin/class-cdlopd-admin.php:542
+msgid "Texto principal"
+msgstr "Texto principal"
+
+#: admin/class-cdlopd-admin.php:550
+msgid "Texto de enlace a más información\""
+msgstr "Texto de enlace a más información\""
+
+#: admin/class-cdlopd-admin.php:558
+msgid "Pagina de más información"
+msgstr "Pagina de más información"
+
+#: admin/class-cdlopd-admin.php:566
+msgid "URL externa para más información"
+msgstr "URL externa para más información"
+
+#: admin/class-cdlopd-admin.php:574
+msgid "Abrir url externa en:"
+msgstr "Abrir url externa en:"
+
+#: admin/class-cdlopd-admin.php:582
+msgid "Texto botón aceptación"
+msgstr "Texto botón aceptación"
+
+#: admin/class-cdlopd-admin.php:616
+msgid "Cookies"
+msgstr "Cookies"
+
+#: admin/class-cdlopd-admin.php:627
+msgid ""
+"Esta pagina utiliza cookies y otras tecnologías para que podamos mejorar su "
+"experiencia en nuestros sitios: "
+msgstr ""
+"Esta pagina utiliza cookies y otras tecnologías para que podamos mejorar su "
+"experiencia en nuestros sitios: "
+
+#: admin/class-cdlopd-admin.php:628
+msgid "Acepto"
+msgstr "Acepto"
+
+#: admin/class-cdlopd-admin.php:629
+msgid "Más información."
+msgstr "Más información."
+
+#: admin/class-cdlopd-admin.php:684
+msgid ""
+"Texto de cabecera del banner (no se mostrara si se posiciona en la parte "
+"superior o inferior)"
+msgstr ""
+"Texto de cabecera del banner (no se mostrara si se posiciona en la parte "
+"superior o inferior)"
+
+#: admin/class-cdlopd-admin.php:691
+msgid "Texto principal del banner de política de cookies"
+msgstr "Texto principal del banner de política de cookies"
+
+#: admin/class-cdlopd-admin.php:698
+msgid "Texto de botón para aceptar política de cookies y cerrar banner"
+msgstr "Texto de botón para aceptar política de cookies y cerrar banner"
+
+#: admin/class-cdlopd-admin.php:705
+msgid "Texto para enlace a pagina de más información"
+msgstr "Texto para enlace a pagina de más información"
+
+#: admin/class-cdlopd-admin.php:721
+msgid "Seleccionar la pagina que más "
+msgstr "Seleccionar la pagina que más "
+
+#: admin/class-cdlopd-admin.php:728
+msgid ""
+"Si no dispone de pagina de política de cookies puede escribir una url "
+"externa."
+msgstr ""
+"Si no dispone de pagina de política de cookies puede escribir una url "
+"externa."
+
+#: admin/class-cdlopd-admin.php:735
+msgid "Nueva Pagina"
+msgstr "Nueva Pagina"
+
+#: admin/class-cdlopd-admin.php:736
+msgid "Misma Pagina"
+msgstr "Misma Pagina"
+
+#: admin/class-cdlopd-admin.php:738
+msgid "Abrir url externa en nueva pagina o en la misma pagina"
+msgstr "Abrir url externa en nueva pagina o en la misma pagina"
+
+#: admin/class-cdlopd-admin.php:749 public/customizer.php:33
+msgid "Superior"
+msgstr "Superior"
+
+#: admin/class-cdlopd-admin.php:750 public/customizer.php:34
+msgid "Inferior"
+msgstr "Inferior"
+
+#: admin/class-cdlopd-admin.php:751
+msgid "Superior Izquierda"
+msgstr "Superior Izquierda"
+
+#: admin/class-cdlopd-admin.php:752
+msgid "Superior Derecha"
+msgstr "Superior Derecha"
+
+#: admin/class-cdlopd-admin.php:753
+msgid "Inferior Izquierda"
+msgstr "Inferior Izquierda"
+
+#: admin/class-cdlopd-admin.php:754
+msgid "Inferior Derecha"
+msgstr "Inferior Derecha"
+
+#: admin/class-cdlopd-admin.php:756
+msgid "Posición en la que aparece el banner de Política de cookies"
+msgstr "Posición en la que aparece el banner de Política de cookies"
+
+#: admin/class-cdlopd-admin.php:769
+msgid "Mostrar boton de aceptar"
+msgstr "Mostrar boton de aceptar"
+
+#: admin/class-cdlopd-admin.php:776
+msgid "X para cerrar banner de política de cookies"
+msgstr "X para cerrar banner de política de cookies"
+
+#: admin/class-cdlopd-admin.php:783
+msgid "Color de texto princippal de banner de política de cookies"
+msgstr "Color de texto princippal de banner de política de cookies"
+
+#: admin/class-cdlopd-admin.php:790
+msgid "Color de fondo del banner"
+msgstr "Color de fondo del banner"
+
+#: admin/class-cdlopd-admin.php:797
+msgid "Color de texto que enlaza a más información"
+msgstr "Color de texto que enlaza a más información"
+
+#: admin/class-cdlopd-admin.php:804
+msgid "Color de texto del botón de aceptar política"
+msgstr "Color de texto del botón de aceptar política"
+
+#: admin/class-cdlopd-admin.php:811
+msgid "Color de fondo del boton de aceptar política"
+msgstr "Color de fondo del boton de aceptar política"
+
+#: admin/class-cdlopd-admin.php:855
+msgid "Configuración Cookies"
+msgstr "Configuración Cookies"
+
+#: admin/class-cdlopd-admin.php:878
+msgid "Valores por defecto"
+msgstr "Valores por defecto"
+
+#: public/customizer.php:14
+msgid "Consentimiento de Cookies"
+msgstr "Consentimiento de Cookies"
+
+#: public/customizer.php:35
+msgid "Superior izquierda"
+msgstr "Superior izquierda"
+
+#: public/customizer.php:36
+msgid "Superior derecha"
+msgstr "Superior derecha"
+
+#: public/customizer.php:37
+msgid "Inferior izquierda"
+msgstr "Inferior izquierda"
+
+#: public/customizer.php:38
+msgid "Inferior derecha"
+msgstr "Inferior derecha"
+
+#: public/customizer.php:40
+msgid "Posición banner."
+msgstr "Posición banner."
+
+#: public/customizer.php:65
+msgid "Enqueue Styles"
+msgstr "Estilos"
+
+#: public/customizer.php:66
+msgid "Deselect this to dequeue the plugin stylesheet."
+msgstr "No seleccionar"
+
+#: public/customizer.php:81
+msgid "Redondeo esquinas"
+msgstr "Redondeo esquinas"
+
+#: public/customizer.php:82
+msgid "Redondear esquinas."
+msgstr "Redondear esquinas."
+
+#: public/customizer.php:97
+msgid "Sombra"
+msgstr "Sombra"
+
+#: public/customizer.php:98
+msgid "Añadir sombra."
+msgstr "Añadir sombra."
+
+#: public/customizer.php:113
+msgid "Mostrar boton con text"
+msgstr "Mostrar botón con texto"
+
+#: public/customizer.php:114
+msgid "No mostrar boton a la derecha"
+msgstr "No mostrar boton a la derecha"
+
+#: public/customizer.php:129
+msgid "Usar X para cerrar"
+msgstr "Usar X para cerrar"
+
+#: public/customizer.php:130
+msgid "Cambiar X por icono"
+msgstr "Cambiar X por icono"
+
+#: public/customizer.php:145
+msgid "Color de texto"
+msgstr "Color de texto"
+
+#: public/customizer.php:146
+msgid "Color de texto de notificación."
+msgstr "Color de texto de notificación."
+
+#: public/customizer.php:162
+msgid "Color de fondo."
+msgstr "Color de fondo."
+
+#: public/customizer.php:177
+msgid "Color del link"
+msgstr "Color del link"
+
+#: public/customizer.php:178
+msgid "Color de texto de link."
+msgstr "Color de texto de link."
+
+#: public/customizer.php:193
+msgid "Color de Boton"
+msgstr "Color de Botón"
+
+#: public/customizer.php:194
+msgid "Color de texto del boton."
+msgstr "Color de texto del botón de aceptar política"
+
+#: public/customizer.php:209
+msgid "Color fondo del boton"
+msgstr "Color fondo del boton"
+
+#: public/customizer.php:210
+msgid "Color de fondo del boton."
+msgstr "Color de fondo del botón."
+
+#: public/customizer.php:225
+msgid "Boton plano"
+msgstr "Botón plano"
+
+#: public/customizer.php:226
+msgid "Deseleccionar"
+msgstr "Deseleccionar"

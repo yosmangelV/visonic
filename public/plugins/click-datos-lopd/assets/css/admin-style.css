@@ -1,0 +1,116 @@
+.cdlopd-chebox {
+    font-size: 16px;
+    line-height: 30px;
+}
+.cdlopd-formularios {
+    padding: 5px 5px;
+    border-left: 4px solid #fff;
+    margin-bottom: 15px;
+    border-left-color: #ff6f00;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.cdlopd-outer-wrap {
+    margin-right: 300px;
+    padding: 0;
+}
+.cdlopd-inner-wrap {
+    position: relative;
+    width: 100%;
+    min-width: 463px;
+    float: left;
+
+    position: relative;
+    max-width: 1280px;
+    margin: 20px 0 1px;
+    border: 1px solid #e5e5e5;
+    background-color: #fdfdfd;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.cdlopd-inner-wrap-content {
+
+    width: 95%;
+    margin-left: 20px;
+}
+.cdlopd-inner-wrap h2 {
+
+    padding: 1em;
+    border-bottom: 1px solid #ccc;
+    background-color: #fdfdfd;
+    font-size: 1.4em;  
+}
+
+.cdlopd-banners {
+    float: right;
+    margin-right: -300px;
+    width: 280px;
+}
+.cdlopd-banners img {
+    max-width: 100%;
+}
+.cdlopd-banner {
+    margin-top: 20px;
+    margin-bottom: 1.5em;
+}
+
+/*TABLA*/
+.cdlopd-form-table, .cdlopd-form-table td, .cdlopd-form-table td p, .cdlopd-form-table th {
+    font-size: 14px;
+    width: 180px;
+    text-align: left;
+    float: left;
+}
+
+.cdlopd-form-table {
+    border-collapse: collapse;
+    margin-top: .5em;
+    width: 100%;
+    clear: both;
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .cdlopd-outer-wrap {
+        margin-right: 0;
+    }
+    .cdlopd-inner-wrap {
+        position: relative;
+        width: 100%;
+        min-width: 0;
+        float: none;
+    }
+    .cdlopd-banners {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+    }
+    .cdlopd-banner {
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+.titulotablacookies{
+    border: 1px solid #ff6f00!important;
+    background: #ff6f00!important;
+    color: white!important;
+    text-transform: capitalize!important;
+    font-weight: bold!important;
+}
+
+.sectionayuda{
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border: 2px solid #ff6f00;
+    box-shadow: 8px 8px 10px -2px;
+}
+
+#submit{
+    margin-left: 10%;
+    width: 80%!important;
+}

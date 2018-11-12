@@ -1,0 +1,35 @@
+# Translation of Plugins - Adaptación RGPD / LOPD - Development Readme (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Adaptación RGPD / LOPD - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-21 19:45+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.6\n"
+"Language: es-ES\n"
+"Project-Id-Version: Plugins - Adaptación RGPD / LOPD - Development Readme (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+
+#. Short description.
+msgid "Plugin para adecuación a RGPD LOPD. Páginas legales, banner de cookies, cláusulas legales"
+msgstr "Plugin para adecuación a RGPD LOPD. Páginas legales, banner de cookies, cláusulas legales"
+
+#. Found in description paragraph.
+msgid ""
+"clickDatos LOPD plugin realiza las siguientes funciones:\n"
+"1-Creación de las páginas de Aviso legal, Politica de cookies y Politica de privacidad con los datos que se rellenen en el formulario Lopd para formularios.\n"
+"2-Inserción de banner de politica de cookies con distintas posibilidades de personalización y colocación\n"
+"3-Inserción de las cláusulas de proteccion de datos en los formularios realizados con el plugin Contact Form de la página web."
+msgstr ""
+"clickDatos LOPD plugin realiza las siguientes funciones:\n"
+"1-Creación de las páginas de Aviso legal, Politica de cookies y Politica de privacidad con los datos que se rellenen en el formulario Lopd para formularios.\n"
+"2-Inserción de banner de politica de cookies con distintas posibilidades de personalización y colocación\n"
+"3-Inserción de las cláusulas de proteccion de datos en los formularios realizados con el plugin Contact Form de la página web."
+
+#. Plugin name.
+msgid "Adaptación RGPD / LOPD"
+msgstr "Adaptación RGPD / LOPD"

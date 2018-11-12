@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cookies>
+    <cookie>
+        <nombre>_ga</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Se usa para distinguir a los usuarios.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>_gat</nombre>
+        <categoria>Publicidad</categoria>
+        <descripcion>Se usa para diferenciar entre los diferentes objetos de seguimiento creados en la sesión.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>1 minuto</duracion>
+    </cookie>
+    <cookie>	
+        <nombre>_gid</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Se usa para distinguir a los usuarios.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>24 horas</duracion>
+    </cookie>
+    <cookie>	
+        <nombre>_uetsid</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Se usa para distinguir a los usuarios.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>30 minutos</duracion>
+    </cookie>
+    <cookie>	
+        <nombre>PHPSESSID</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Esta cookie es usado por el lenguaje de encriptado PHP para permitir que las variables de sesión sean guardadas en el servidor web.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>	
+        <nombre>wordpress_</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Se activa durante el login y guarda los detalles de autentificación.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>	
+        <nombre>wordpress_logged_in_</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Se activa durante el login y guarda los detalles de autentificación.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>	
+        <nombre>wordpress_test_cookie</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Se activa durante el login y guarda los detalles de autentificación.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>wp-settings-</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Sirve para personalizar la Interfaz de Usuario.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>wp-settings-time-</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Sirve para personalizar la Interfaz de Usuario.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>
+        <nombre>_utma</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Se usa para distinguir usuarios y sesiones.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>_utmb</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Se usa para determinar nuevas sesiones o visitas.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>30 min</duracion>
+    </cookie>
+    <cookie>
+        <nombre>_utmc</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>No se usa en ga.js. Se configura para interactuar con urchin.js.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>
+        <nombre>_utmz</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Almacena la fuente de tráfico o la campaña que explica cómo ha llegado el usuario al sitio.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>6 meses</duracion>
+    </cookie>
+    <cookie>
+        <nombre>_utmv</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Se usa para almacenar datos de variables personalizadas de visitante.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>pll_language</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Polylang es una extensión para hacer sitios web de WordPress multilingües.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>MUID</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Utilizada ampliamente por Microsoft como identificación única de usuario.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>SRCHD</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Permite el seguimiento del usuario sincronizando la identificación a lo largo de muchos dominios de Microsoft.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>SRCHHPGUSR</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Permite el seguimiento del usuario sincronizando la identificación a lo largo de muchos dominios de Microsoft.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>SRCHUID</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Permite el seguimiento del usuario sincronizando la identificación a lo largo de muchos dominios de Microsoft.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>SRCHUSR</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Permite el seguimiento del usuario sincronizando la identificación a lo largo de muchos dominios de Microsoft.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>MR</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Permite el seguimiento del usuario sincronizando la identificación a lo largo de muchos dominios de Microsoft.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>179 días</duracion>
+    </cookie>
+    <cookie>
+        <nombre>MUIDB</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Permite el seguimiento del usuario sincronizando la identificación a lo largo de muchos dominios de Microsoft.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>IDE</nombre>
+        <categoria>Publicidad</categoria>
+        <descripcion>Es la principal cookie de publicidad que usa Google en los sitios web que no pertenecen a Google.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>fr</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Cookie para medición de campañas de Facebook.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>3 meses</duracion>
+    </cookie>
+    <cookie>
+        <nombre>CONSENT</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Al crear o iniciar sesión en una cuenta de Google se almacenan estas Cookies en su ordenador con el fin de permanecer conectado a su cuenta de Google al visitar sus servicios de nuevo.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>20 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>NID</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>La cookie NID contiene un ID único que Google utiliza para recordar tus preferencias y otra información.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>6 meses</duracion>
+    </cookie>
+    <cookie>
+        <nombre>homeSearchCookie</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Se usa para registrar el historial de búsquedas de la web.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>30 días</duracion>
+    </cookie>
+    <cookie>
+        <nombre>woocommerce_cart_hash</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Contiene información sobre el carrito en su totalidad y ayuda a WooCommerce a saber cuándo cambian los datos del carrito.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>30 días</duracion>
+    </cookie>
+    <cookie>
+        <nombre>woocommerce_items_in_cart</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Contiene información sobre el carrito en su totalidad y ayuda a WooCommerce a saber cuándo cambian los datos del carrito.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>30 días</duracion>
+    </cookie>
+    <cookie>
+        <nombre>woocommerce_recently_viewed</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Contiene información sobre los últimos productos visitados.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>30 días</duracion>
+    </cookie>
+    <cookie>
+        <nombre>wp_woocommerce_session_</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Contiene un código único para cada cliente para que sepa dónde encontrar los datos del carrito en la base de datos.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>30 días</duracion>
+    </cookie>
+    <cookie>
+        <nombre>catAccCookies</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Contiene un código para verificar que la política de cookies ha sido aceptada.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 día</duracion>
+    </cookie>
+    <cookie>
+        <nombre>__tawkuuid</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Identifica el usuario que ha iniciado sesión para ofrecerle asistencia online.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>
+        <nombre>Tawk_</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Identifica el usuario que ha iniciado sesión para ofrecerle asistencia online.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>
+        <nombre>TawkConnectionTime</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Identifica el usuario que ha iniciado sesión para ofrecerle asistencia online.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>
+        <nombre>__cfduid</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Identifica el usuario que ha iniciado sesión para ofrecerle asistencia online.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>
+        <nombre>wfvt</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Cookie que protege el sitio Web contra ataques maliciosos.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>Finalización de la sesión</duracion>
+    </cookie>
+    <cookie>
+        <nombre>wordfence_verifiedHuman</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Cookie utilizada para ofrecer seguridad al navegar en la página Web.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 día</duracion>
+    </cookie>
+    <cookie>
+        <nombre>gadwp_wg_default_dimension</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Gestiona la gestión del acceso a la web y el despliegue de imágenes.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 semana</duracion>
+    </cookie>
+    <cookie>
+        <nombre>gadwp_wg_default_metric</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Gestiona la gestión del acceso a la web y el despliegue de imágenes.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 semana</duracion>
+    </cookie>
+    <cookie>
+        <nombre>datr</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Cookie del servicio social facebook.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>2 años</duracion>
+    </cookie>
+    <cookie>
+        <nombre>dats</nombre>
+        <categoria>Análsis</categoria>
+        <descripcion>Cookie del servicio social facebook.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>6 meses</duracion>
+    </cookie>
+    <cookie>
+        <nombre>lu</nombre>
+        <categoria>Análsis</categoria>
+        <descripcion>Cookie del servicio social facebook.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>sb</nombre>
+        <categoria>Análsis</categoria>
+        <descripcion>Cookie del servicio social facebook.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>xs</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Necesario para el funcionamiento del botón “Like”.</descripcion>
+        <propiedad>Terceros</propiedad>
+        <duracion>3 meses</duracion>
+    </cookie>
+    <cookie>
+        <nombre>euCookie</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Informa a los usuarios de que tu sitio utiliza cookies, por medio de una ventana emergente para mostrar más información y la opción de bloquear scripts antes de su aceptación.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>3 meses</duracion>
+    </cookie>
+    <cookie>
+        <nombre>qtrans_front_language</nombre>
+        <categoria>Funcionalidad</categoria>
+        <descripcion>Guarda el idioma que el usuario desea ver en la web.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+    <cookie>
+        <nombre>cdp-cookies-plugin-wp</nombre>
+        <categoria>Análisis</categoria>
+        <descripcion>Aceptación de instalación de cookies.</descripcion>
+        <propiedad>Propia</propiedad>
+        <duracion>1 año</duracion>
+    </cookie>
+</cookies>

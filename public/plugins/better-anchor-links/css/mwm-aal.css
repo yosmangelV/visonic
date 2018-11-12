@@ -1,0 +1,10 @@
+/* In Content */
+.mwm-aal-container{font-size:12px; padding: 5px; border-top:1px solid #ccc; border-bottom: 1px solid #ccc; margin: 2px 0px;}
+.mwm-aal-container .mwm-aal-title{font-size: 14px; font-weight: bold;}
+.mwm-aal-container ol li{ margin-bottom: 2px;}
+.mwm-aal-container ul li{ margin-bottom: 1px;}
+.mwm-aal-container ul ul, ul ul ul{margin-left: 15px;}
+.mwm-aal-container ol ol, ol ol ol{margin-left: 0px;}
+a.mwm-aal-item{position: absolute;margin-top: -50px;padding-top: 50px}
+/* Sidebar */
+.mwm-aal-sidebar-container{}

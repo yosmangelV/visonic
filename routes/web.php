@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('reparacion.consulta');
 });
+
+Route::post('search-repair','Reparacion\ReparacionController@find')->name('search-repair');
