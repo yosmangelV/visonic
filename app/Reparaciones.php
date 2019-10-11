@@ -10,9 +10,9 @@ class Reparaciones extends Model
 
 	protected $table = 'reparaciones';
 
-    
+
     protected $casts = [
-        'fecha_entrada' => 'date:d-m-Y',
+        'Fecha_Entrada' => 'date:d-m-Y',
     ];
     /**
      * The attributes that are mass assignable.

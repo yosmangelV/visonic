@@ -8,19 +8,19 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
 class ReparacionController extends Controller
 {
-    
+
 
     public function find(Request $request){
 
     	try {
     		$messages = [
                 'numero_serie.required'       => 'Debe ingresar el número de serie para realizar la búsqueda.',
-                'numero_serie.min'            => 'El número de serie debe tener al menos 3 carácteres.', 
+                'numero_serie.min'            => 'El número de serie debe tener al menos 3 carácteres.',
             ];
             $this->validate($request,[
                 'numero_serie'        => 'required|min:3'
                 ],$messages);
-		
+
     		$numero_serie=strtoupper($request->numero_serie);
     		$reparacion=Reparaciones::where('N_Serie',$numero_serie)->orderBy('N_reparacion','desc')->first();
     		$status="0";
@@ -32,12 +32,12 @@ class ReparacionController extends Controller
     			//GARANTIA SI
     			if($reparacion->Garantia=="Si"){
     				//RECIBIDO PENDIENTE REVISION --P201MQLK--
-	    			if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+	    			if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( empty($reparacion->Recogido) || 
-	    						$reparacion->Recogido=="No" 
+	    				) &&
+	    				( empty($reparacion->Recogido) ||
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -46,7 +46,7 @@ class ReparacionController extends Controller
 	    				( empty($reparacion->ACABADO) ||
 	    						$reparacion->ACABADO=="No"
 	    				) &&
-	    				( empty($repacion->Pte_Presu) ||
+	    				( empty($reparacion->Pte_Presu) ||
 	    						$reparacion->Pte_Presu=="No"
 	    				) &&
 	    				( empty($reparacion->Presu_Pte_Acept) ||
@@ -74,13 +74,13 @@ class ReparacionController extends Controller
 	    				$status="001";
 	    				$mensaje="Recibido Pendiente de Revisión";
 	    			}
-	    			//PEMDIENTE DE MATERIAL ---P2022GPD---
-	    			else if( 
-	    				( !empty($reparacion->Pendiente_Material) && 
+	    			//PENDIENTE DE MATERIAL ---P2022GPD---
+	    			else if(
+	    				( !empty($reparacion->Pendiente_Material) &&
 	    						$reparacion->Pendiente_Material=="Si"
-	    				) && 
-	    				( empty($reparacion->Recogido) || 
-	    						$reparacion->Recogido=="No" 
+	    				) &&
+	    				( empty($reparacion->Recogido) ||
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -89,7 +89,7 @@ class ReparacionController extends Controller
 	    				( empty($reparacion->ACABADO) ||
 	    						$reparacion->ACABADO=="No"
 	    				) &&
-	    				( empty($repacion->Pte_Presu) ||
+	    				( empty($reparacion->Pte_Presu) ||
 	    						$reparacion->Pte_Presu=="No"
 	    				) &&
 	    				( empty($reparacion->Presu_Pte_Acept) ||
@@ -118,21 +118,21 @@ class ReparacionController extends Controller
 	    				$mensaje="Pendiente de Material";
 	    			}
 	    			//ACABADO PENDIENTE DE ENVIAR  -- P2016DQN --
-	    			else if( 
+	    			else if(
 	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( empty($reparacion->Recogido) || 
-	    						$reparacion->Recogido=="No" 
+	    				) &&
+	    				( empty($reparacion->Recogido) ||
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( !empty($reparacion->Fecha_Reparacion)
 	    				) &&
 	    				( empty($reparacion->Fecha_Salida)
 	    				) &&
-	    				( 
+	    				(
 	    						$reparacion->ACABADO=="Si"
 	    				) &&
-	    				( empty($repacion->Pte_Presu) ||
+	    				( empty($reparacion->Pte_Presu) ||
 	    						$reparacion->Pte_Presu=="No"
 	    				) &&
 	    				( empty($reparacion->Presu_Pte_Acept) ||
@@ -161,11 +161,11 @@ class ReparacionController extends Controller
 	    				$mensaje="Acabado. Pendiente de Enviar";
 	    			}
 	    			//ENVIADO --LR05BV7W--
-	    			else if( 
+	    			else if(
 	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( !empty($reparacion->Recogido) || 
+	    				) &&
+	    				( !empty($reparacion->Recogido) ||
 	    						$reparacion->Recogido=="No" ||
 	    						$reparacion->Recogido=="Si"
 	    				) &&
@@ -175,7 +175,7 @@ class ReparacionController extends Controller
 	    				) &&
 	    				( $reparacion->ACABADO=="Si"
 	    				) &&
-	    				( empty($repacion->Pte_Presu) ||
+	    				( empty($reparacion->Pte_Presu) ||
 	    						$reparacion->Pte_Presu=="No"
 	    				) &&
 	    				( empty($reparacion->Presu_Pte_Acept) ||
@@ -205,12 +205,12 @@ class ReparacionController extends Controller
 	    			}
     			}else{
     				//PENDIENTE ELABORACION PRESUPUESTO **SIN PROBAR** NO DATA
-	    			if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+	    			if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( empty($reparacion->Recogido) || 
-	    						$reparacion->Recogido=="No" 
+	    				) &&
+	    				( empty($reparacion->Recogido) ||
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -219,7 +219,7 @@ class ReparacionController extends Controller
 	    				( empty($reparacion->ACABADO) ||
 	    						$reparacion->ACABADO=="No"
 	    				) &&
-	    				( !empty($repacion->Pte_Presu) &&
+	    				( !empty($reparacion->Pte_Presu) &&
 	    						$reparacion->Pte_Presu=="Si"
 	    				) &&
 	    				( empty($reparacion->Presu_Pte_Acept) ||
@@ -248,12 +248,12 @@ class ReparacionController extends Controller
 	    				$mensaje="Pendiente de la Elaboración del Presupuesto.";
 	    			}
 	    			//PENDIENTE DE ACEPTACION --P2022F6Y--
-	    			else if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+	    			else if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( empty($reparacion->Recogido) || 
-	    						$reparacion->Recogido=="No" 
+	    				) &&
+	    				( empty($reparacion->Recogido) ||
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -293,12 +293,12 @@ class ReparacionController extends Controller
 	   				------------------ACEPTADO ---------------------
 	    			*/
 	    			//PENDIENTE DE MATERIAL --P20116H5--
-	    			else if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+	    			else if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( empty($reparacion->Recogido) || 
-	    						$reparacion->Recogido=="No" 
+	    				) &&
+	    				( empty($reparacion->Recogido) ||
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -327,12 +327,12 @@ class ReparacionController extends Controller
 	    				$mensaje="Presupuesto Aceptado. Pendiente de Material.";
 	    			}
 	    			//ACABADO PENDIENTE DE ENVIO -- P20116F6 --
-	    			else if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+	    			else if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( empty($reparacion->Recogido) || 
-	    						$reparacion->Recogido=="No" 
+	    				) &&
+	    				( empty($reparacion->Recogido) ||
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( !empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -360,11 +360,11 @@ class ReparacionController extends Controller
 	    				$mensaje="Presupuesto Aceptado. Acabado, pendiente el Envío.";
 	    			}
 	    			//ENVIADO -- P2016DT6 --
-	    			else if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+	    			else if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
-	    				( $reparacion->Recogido=="Si" 
+	    				) &&
+	    				( $reparacion->Recogido=="Si"
 	    				) &&
 	    				( !empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -395,12 +395,12 @@ class ReparacionController extends Controller
 					---------------NO ACEPTADO ----------------------
 	    			*/
 					//PRESUPUESTO RECHAZADO PENDIENTE DE ENVIO -- LR04G27G --
-					else if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+					else if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
+	    				) &&
 	    				( empty($reparacion->Recogido) ||
-	    						$reparacion->Recogido=="No" 
+	    						$reparacion->Recogido=="No"
 	    				) &&
 	    				( !empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -428,12 +428,12 @@ class ReparacionController extends Controller
 	    				$mensaje="Presupuesto Rechazado. Pendiente de Envío.";
 	    			}
 	    			//PRESUPUESTO RECHAZADO ENVIADO -- PF0E68XJ --
-					else if( 
-	    				( empty($reparacion->Pendiente_Material) || 
+					else if(
+	    				( empty($reparacion->Pendiente_Material) ||
 	    						$reparacion->Pendiente_Material=="No"
-	    				) && 
+	    				) &&
 	    				( empty($reparacion->Recogido) ||
-	    						$reparacion->Recogido=="Si" 
+	    						$reparacion->Recogido=="Si"
 	    				) &&
 	    				( !empty($reparacion->Fecha_Reparacion)
 	    				) &&
@@ -461,19 +461,19 @@ class ReparacionController extends Controller
 	    				$mensaje="Presupuesto Rechazado. Enviado.";
 	    			}
     			}
-    				
+
     		}
     		return response()->json([
     				'reparacion'=>$reparacion,
     				'status'=>$status,
     				'mensaje'=>$mensaje
-    			]);	
+    			]);
     	} catch (Exception $e) {
     		return response()->json([
     				'reparacion'=>[],
     				'status'=>"999",
     				'mensaje'=>"Ocurrió un error, por favor intente de nuevo."
-    			]);	
+    			]);
     	}
     }
 
